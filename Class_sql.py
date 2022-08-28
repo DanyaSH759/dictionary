@@ -21,4 +21,8 @@ class sql:
         for full in full_cur:
             print(full)
 
+            
+            
+            
+ #Проверка на то как происходят изменения
 
