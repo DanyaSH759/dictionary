@@ -14,15 +14,15 @@ class sql:
         self.db.close()
 
     def show_eng_words(self):
-
+        #выборка значений из таблицы из data.db
         self.connections()
         cur = self.curs.execute('''SELECT * FROM words_eng''')
         full_cur = cur.fetchall()
         for full in full_cur:
-            print(full)
+            print(full) #перебор значений для команды show
 
             
             
             
- #Проверка на то как происходят изменения
+
 
