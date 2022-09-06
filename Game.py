@@ -66,6 +66,6 @@ class Game():
                 break
             else:
                 print('\nОтвет некорректный, вот список правильного перевода')
-                print({chose_rand})
+                print(chose_rand)
 
         A.conn_close()#закрытие соеденение с базой данных
